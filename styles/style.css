@@ -36,9 +36,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  block-size: 46vh;
+  block-size: 50vh;
   inline-size: 49vw;
-  margin: 13vh auto;
+  margin: 13.3vh auto;
   gap: 20px;
 }
 
@@ -62,18 +62,18 @@
 
 .card h3 {
   font-family: var(--main-font);
-  font-variation-settings: "wght" var(--title-font-weight);
+  font-variation-settings: "wght" var(--title-font-weight), "wdth" 77, 'opsz' 0;
   font-weight: var(--title-font-weight);
   letter-spacing: -0.25px;
-  text-indent: 10px;
   min-block-size: 33px;
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 .image_wrapper {
   position: relative;
-  block-size: 89vh;
+  block-size: 95vh;
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
 }
