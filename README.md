@@ -6,3 +6,5 @@
 ##### Клонировать репозиротий https://github.com/MariaSharipova/zakrivayuschiy-teg-f
 
 ##### Открыть файл index.html в любом браузере. 
+
+##### https://mariasharipova.github.io/zakrivayuschiy-teg-f/
