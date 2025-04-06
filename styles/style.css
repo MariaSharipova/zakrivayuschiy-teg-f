@@ -11,6 +11,7 @@
 
 .page {
   font-family: "Inter", sans-serif;
+  font-variation-settings: var(--text-font-weight);
   min-inline-size: 320px;
   min-block-size: 100dvb;
   max-block-size: 100vh;
