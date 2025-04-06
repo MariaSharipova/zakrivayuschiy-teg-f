@@ -11,7 +11,7 @@
 
 .page {
   font-family: "Inter", sans-serif;
-  font-variation-settings: var(--text-font-weight);
+  font-variation-settings: "wght" var(--text-font-weight);
   min-inline-size: 320px;
   min-block-size: 100dvb;
   max-block-size: 100vh;
@@ -62,6 +62,7 @@
 
 .card h3 {
   font-family: var(--main-font);
+  font-variation-settings: "wght" var(--title-font-weight);
   font-weight: var(--title-font-weight);
   letter-spacing: -0.25px;
   text-indent: 10px;
