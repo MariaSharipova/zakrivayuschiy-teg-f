@@ -364,6 +364,10 @@
     padding: 120px 0px;
   }
 
+  .card { 
+    margin: 51px 0;
+  }
+
   .card_header {
     line-height: 110%;
   }
@@ -371,6 +375,11 @@
   .image_wrapper {
     block-size: 375px;
   }
+
+  .button_wrapper { 
+    margin-bottom: 23.5px;
+  }
+
 
   .label {
     top: 6%;
