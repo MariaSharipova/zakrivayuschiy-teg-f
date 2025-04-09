@@ -359,12 +359,11 @@
 }
 
 @media (width <= 475px) {
-  
   .header {
     padding: 120px 0px;
   }
 
-  .card { 
+  .card {
     margin: 51px 0;
   }
 
@@ -376,10 +375,9 @@
     block-size: 375px;
   }
 
-  .button_wrapper { 
+  .button_wrapper {
     margin-bottom: 23.5px;
   }
-
 
   .label {
     top: 6%;
@@ -408,14 +406,13 @@
     padding: 28px 38px;
     column-gap: 18px;
   }
-  
+
   .save-dialog .button {
     padding: 6px 113px;
   }
-  
-  .save-dialog .decorative_icon {
-      block-size: 39px;
-      inline-size: 39px;
-    }
 
+  .save-dialog .decorative_icon {
+    block-size: 39px;
+    inline-size: 39px;
+  }
 }
