@@ -14,15 +14,10 @@
   font-variation-settings: "wght" var(--text-font-weight);
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  max-block-size: 100vh;
   background: var(--background-image);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-}
-
-.content {
-  padding-bottom: 6vh;
 }
 
 @supports (font-variation-settings: normal) {
@@ -41,6 +36,7 @@
   justify-content: center;
   align-items: center;
   inline-size: 48.6vw;
+  max-inline-size: 700px;
   padding: 128px;
   margin: 100px auto;
   gap: 20px;
@@ -60,6 +56,7 @@
   background-color: #ffffff;
   position: relative;
   inline-size: 48.6vw;
+  max-inline-size: 700px;
   margin: 50px auto;
   border: 2px solid var(--accent-color);
 }
@@ -122,8 +119,8 @@
   font-family: var(--accent-font);
   font-weight: var(--text-font-weight);
   font-size: 14px;
-  right: 4%;
-  top: 4%;
+  right: 3.7%;
+  top: 3.8%;
   mix-blend-mode: hard-light;
   z-index: 3;
   text-shadow: -1px 0 var(--text-strok), 0 1px var(--text-strok),
@@ -300,7 +297,7 @@
 }
 
 .save-button {
-  margin: 6vh auto 60px;
+  margin: 30px auto 103px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -333,7 +330,7 @@
   background-color: rgb(0 0 0 / 75%);
 }
 
-.save-dialog .button__text {
+.dialog__text {
   text-transform: uppercase;
   line-height: 150%;
 }
@@ -342,7 +339,7 @@
   grid-column: span 2;
   text-transform: uppercase;
   justify-self: center;
-  padding: 4px 130px;
+  padding: 5px 130px;
 }
 
 .save-dialog .decorative_icon {
@@ -358,7 +355,6 @@
 
   .card {
     inline-size: 100%;
-    margin: 50px 0;
   }
 }
 
@@ -376,10 +372,6 @@
     block-size: 375px;
   }
 
-  .card {
-    margin: 51px 0;
-  }
-
   .label {
     top: 6%;
   }
@@ -389,17 +381,13 @@
     border-top: 2px solid var(--accent-color);
   }
 
-  .button_wrapper {
-    margin-bottom: 23.5px;
-  }
-
   .about_sprint:last-child {
     margin-bottom: 1px;
   }
 
   .save-button {
     flex-direction: column;
-    padding: 15px 20px;
+    margin-bottom: 100px;
   }
 
   .decorative_icon {
